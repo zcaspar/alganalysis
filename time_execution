@@ -1,0 +1,6 @@
+def time_execution(code):
+    start = time.clock()
+    code_part = eval('code')
+    stop = time.clock()
+    run_time = stop - start
+    return run_time
